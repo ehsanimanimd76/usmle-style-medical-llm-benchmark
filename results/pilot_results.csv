@@ -1,0 +1,21 @@
+id,model,model_version,temperature,accuracy,completeness,safety,clinical_reasoning,total_score,critical_error,review_status,raw_response_status,notes
+MED-001,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct STEMI management.
+MED-002,qwen3:8b,qwen3:8b,0,0,0,0,0,0,YES,physician-reviewed,available_in_chat_transcript,Immediate insulin was incorrectly recommended with K 3.0 mEq/L.
+MED-003,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct IM epinephrine.
+MED-004,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct noncontrast head CT.
+MED-005,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct COPD exacerbation management.
+MED-006,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct empiric IV antibiotics.
+MED-007,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct IV calcium.
+MED-008,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct octreotide and antibiotics.
+MED-009,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct dexamethasone.
+MED-010,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct manic episode.
+MED-011,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct magnesium sulfate.
+MED-012,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct appendicitis management.
+MED-013,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct urgent plasma exchange.
+MED-014,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct IV loop diuretic.
+MED-015,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct RIPE therapy.
+MED-016,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct CRAO diagnosis.
+MED-017,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct adrenal crisis treatment.
+MED-018,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct methotrexate.
+MED-019,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct pancreatitis management.
+MED-020,qwen3:8b,qwen3:8b,0,2,2,2,2,8,NO,physician-reviewed,available_in_chat_transcript,Correct SJS/TEN management.

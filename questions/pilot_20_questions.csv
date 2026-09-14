@@ -1,0 +1,21 @@
+id,specialty,question,correct_answer,key_clinical_point
+MED-001,Cardiology,"58-year-old man with 60 minutes of chest pain and inferior ST elevation; primary PCI is available within 60 minutes. What is the next step?",B,Immediate reperfusion with primary PCI for STEMI.
+MED-002,Endocrinology,"Patient with DKA has glucose 480 mg/dL, pH 7.12, bicarbonate 10 mEq/L, and potassium 3.0 mEq/L. What is the next step?",C,Replace potassium before starting insulin when potassium is dangerously low.
+MED-003,Emergency Medicine,"Patient develops urticaria, wheezing, facial swelling, hypotension, and hypoxemia after an IV antibiotic. What is the immediate treatment?",B,IM epinephrine is first-line for anaphylaxis.
+MED-004,Neurology,"Patient develops sudden hemiparesis and aphasia 60 minutes ago. What initial imaging is required?",B,Noncontrast head CT to exclude hemorrhage.
+MED-005,Pulmonology,"Patient with COPD has increased dyspnea, sputum volume, purulence, and hypoxemia. What is initial treatment?",B,Bronchodilators, systemic steroids, controlled oxygen, and antibiotics when indicated.
+MED-006,Infectious Disease,"Confused patient with fever, neck stiffness, petechial rash, and hemodynamic instability is suspected of meningococcal meningitis. What next?",C,Start empiric IV antibiotics without delay.
+MED-007,Nephrology,"CKD patient has potassium 7.2 mEq/L with peaked T waves and widened QRS. Immediate treatment?",A,IV calcium stabilizes the cardiac membrane.
+MED-008,Gastroenterology,"Cirrhotic patient has massive hematemesis and shock. After initial assessment, empiric treatment?",B,Octreotide plus antibiotic prophylaxis; urgent upper endoscopy follows stabilization.
+MED-009,Pediatrics,"Two-year-old with barking cough, hoarseness, stridor, and mild retractions. Treatment?",B,Dexamethasone for croup.
+MED-010,Psychiatry,"Ten days of decreased need for sleep, pressured speech, grandiosity, impulsive spending, and marked impairment. Diagnosis?",C,Manic episode.
+MED-011,Obstetrics,"Pregnant patient at 34 weeks has severe hypertension, neurologic symptoms, thrombocytopenia, and elevated liver enzymes. Seizure prophylaxis?",A,IV magnesium sulfate.
+MED-012,Surgery,"Patient has migratory periumbilical to right-lower-quadrant pain, fever, guarding, and leukocytosis. Next step?",B,Laparoscopic appendectomy with perioperative antibiotics.
+MED-013,Hematology,"Patient has thrombocytopenia, MAHA, schistocytes, neurologic symptoms, and mild renal injury. Initial treatment?",C,Urgent plasma exchange for suspected TTP.
+MED-014,Cardiology,"Patient with dyspnea, orthopnea, JVP elevation, crackles, S3, and edema has acute decompensated heart failure. Initial treatment?",A,IV loop diuretic for congestion.
+MED-015,Infectious Disease,"Patient has cavitary upper-lobe lesion and three sputum samples positive for AFB. Initial treatment?",C,Four-drug RIPE therapy for presumed drug-susceptible TB.
+MED-016,Neurology,"Sudden painless monocular vision loss with pale retina and cherry-red spot. Diagnosis?",B,Central retinal artery occlusion.
+MED-017,Endocrinology,"Hypotension, hyperpigmentation, hyponatremia, hyperkalemia, hypoglycemia, and low cortisol. Immediate treatment?",A,IV hydrocortisone and isotonic saline for adrenal crisis.
+MED-018,Rheumatology,"Symmetric MCP/PIP swelling, prolonged morning stiffness, and positive anti-CCP antibodies. Initial DMARD?",B,Methotrexate.
+MED-019,Gastroenterology,"Acute pancreatitis after initial assessment. Appropriate initial management?",A,Goal-directed IV fluids and early oral feeding as tolerated.
+MED-020,Dermatology,"Fever, mucosal erosions, targetoid lesions, and epidermal detachment after TMP-SMX. Next step?",B,Stop the offending drug and provide urgent supportive care.
