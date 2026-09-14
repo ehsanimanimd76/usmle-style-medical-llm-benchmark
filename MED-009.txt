@@ -1,0 +1,3 @@
+Answer: B. Dexamethasone
+
+Reasoning: The patient's symptoms (barking cough, hoarseness, inspiratory stridor worsening at night, mild retractions) are classic for viral croup, typically caused by parainfluenza virus. Corticosteroids such as dexamethasone are the first-line treatment to reduce airway inflammation and alleviate stridor. Amoxicillin is ineffective for viral infections. Intubation is reserved for severe airway obstruction or respiratory failure. Nebulized saline may provide temporary relief but is not the primary treatment. Acyclovir is not indicated. Thus, dexamethasone is the most appropriate treatment.

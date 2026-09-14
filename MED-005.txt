@@ -1,0 +1,3 @@
+Answer: B. Inhaled short-acting bronchodilators, systemic corticosteroids, controlled oxygen, and antibiotics
+
+Reasoning: The patient has an acute exacerbation of COPD, evidenced by worsening dyspnea, purulent sputum, and hypoxia (SpO₂ 86%). Immediate management includes bronchodilators (e.g., short-acting beta-agonists/anticholinergics) to relieve bronchospasm, systemic corticosteroids to reduce airway inflammation, controlled oxygen (targeting SpO₂ 88–92%) to avoid CO₂ retention, and antibiotics (e.g., amoxicillin/clavulanate, doxycycline) for suspected bacterial infection (purulent sputum). Intubation is not indicated unless there is severe respiratory failure. High-flow oxygen risks CO₂ retention. Thus, B is the best choice.

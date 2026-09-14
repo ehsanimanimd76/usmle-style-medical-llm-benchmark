@@ -1,0 +1,3 @@
+Answer: C. Rifampin, isoniazid, pyrazinamide, and ethambutol
+
+Reasoning: The patient's presentation (fever, night sweats, weight loss, productive cough, cavitary lesion on chest X-ray, and acid-fast bacilli in sputum) is classic for active pulmonary tuberculosis. The standard initial treatment for drug-susceptible TB is a four-drug regimen to ensure efficacy and prevent resistance. Rifampin, isoniazid, pyrazinamide, and ethambutol are used during the initial phase. Monotherapy or two-drug regimens are insufficient. Azithromycin/amoxicillin and vancomycin are not indicated. The four-drug combination is the most appropriate initial treatment.

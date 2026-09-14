@@ -1,0 +1,3 @@
+Answer: C. Urgent plasma exchange
+
+Reasoning: The patient's presentation (fatigue, petechiae, confusion, low hemoglobin, thrombocytopenia, schistocytes, elevated LDH, and indirect hyperbilirubinemia) is classic for thrombotic thrombocytopenic purpura (TTP). TTP is a life-threatening microangiopathic hemolytic anemia caused by ADAMTS13 deficiency. Plasma exchange is the gold standard for initial treatment. Platelet transfusion is generally avoided unless life-threatening bleeding is present. Heparin, iron supplementation, and splenectomy are not appropriate initial treatments. Urgent plasma exchange is the most appropriate initial treatment.

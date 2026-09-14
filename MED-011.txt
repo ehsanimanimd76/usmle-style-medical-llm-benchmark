@@ -1,0 +1,3 @@
+Answer: A. Intravenous magnesium sulfate
+
+Reasoning: The patient's presentation (severe headache, visual disturbances, right-upper-quadrant pain, hypertension, low platelets, and elevated liver enzymes) is consistent with severe preeclampsia. The risk of eclamptic seizures is high, and magnesium sulfate is the gold standard for seizure prophylaxis in preeclampsia/eclampsia. Nifedipine is used for hypertension management but not seizure prevention. Furosemide may be used with pulmonary edema but not for seizures. Diazepam is not recommended for routine seizure prophylaxis in pregnancy. Aspirin is preventive, not acute treatment. Magnesium sulfate is the most appropriate medication while definitive management is arranged.

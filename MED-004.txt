@@ -1,0 +1,3 @@
+Answer: B. Noncontrast computed tomography of the head
+
+Reasoning: The patient presents with acute stroke symptoms (right-sided weakness, expressive aphasia) and arrived within 60 minutes of onset. Noncontrast CT is the initial imaging study of choice to rapidly rule out intracranial hemorrhage (which contraindicates thrombolytic therapy) and identify early ischemic changes. MRI (A) is more sensitive but slower and less accessible in emergencies. Carotid Doppler (C) and CTA of the chest (D) are not relevant for acute stroke evaluation. EEG (E) is unrelated. Thus, noncontrast CT (B) is the most appropriate initial study.

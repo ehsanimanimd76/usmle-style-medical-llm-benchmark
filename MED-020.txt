@@ -1,0 +1,3 @@
+Answer: B. Discontinue the offending medication and provide urgent supportive care
+
+Reasoning: The patient's presentation of fever, malaise, painful oral erosions, targetoid lesions, and epidermal detachment is classic for Stevens-Johnson syndrome or toxic epidermal necrolysis, likely triggered by trimethoprim-sulfamethoxazole. The key steps are to discontinue the offending drug immediately and provide urgent supportive care, including fluids, wound care, monitoring for sepsis and electrolyte abnormalities, and specialist management. Continuing the drug, antibiotics unrelated to the condition, incision and drainage, or topical corticosteroid alone are inappropriate. Immediate discontinuation and supportive care are the priorities.

@@ -1,0 +1,3 @@
+Answer: B. Intravenous octreotide and prophylactic antibiotics
+
+Reasoning: The patient has massive hematemesis, hypotension, tachycardia, and anemia, consistent with acute variceal bleeding in a patient with cirrhosis. Octreotide is the first-line pharmacologic treatment for acute variceal hemorrhage, as it reduces portal pressure and decreases bleeding. Prophylactic antibiotics are also standard to prevent bacterial translocation and sepsis in cirrhotic patients. Propranolol is used for secondary prevention of variceal rebleeding, not empiric treatment. Omeprazole is not the primary treatment. Colonoscopy is performed after resuscitation and stabilization, and heparin is not indicated. Thus, octreotide with antibiotics is the most appropriate empiric treatment.

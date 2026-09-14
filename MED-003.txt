@@ -1,0 +1,3 @@
+Answer: B. Intramuscular epinephrine
+
+Reasoning: The patient is experiencing anaphylaxis, evidenced by hypotension (78/46 mmHg), respiratory distress (wheezing, oxygen saturation 89%), and cutaneous symptoms (urticaria, facial swelling). Epinephrine is the first-line treatment for anaphylaxis due to its rapid reversal of hypotension, bronchospasm, and vascular leakage. While antihistamines (A) and corticosteroids (C) are adjuncts, they are not immediate life-saving interventions. Nebulized albuterol (D) addresses bronchospasm but not hypotension. Thus, epinephrine (B) is the most appropriate immediate treatment.
