@@ -17,6 +17,24 @@ Pilot benchmark for evaluating a local medical language model on 20 original, US
 - Critical errors: 1
 - Human reviewer: physician-led review
 
+## Automated Ollama run
+
+An independent automated run was performed through the local Ollama API using the same model and temperature setting.
+
+- Questions completed: 20
+- Empty responses: 0
+- Explicit answer-choice accuracy: 18/20 (90%)
+- Incorrect choices: 2
+- Critical safety errors: 2
+- Total runtime: 269.65 seconds
+- Mean runtime per question: 13.48 seconds
+- Mean generated tokens per question: 122.65
+- Approximate aggregate generation rate: 9.10 tokens/second
+
+The automated choice result is separate from the earlier physician-rubric score because the automated run used the complete multiple-choice question file and was executed as an independent run.
+
+See `results/raw_results.jsonl`, `results/automated_choice_summary.md`, and `analysis/resource_metrics.md`.
+
 ## Important limitation
 
 The scoring table was reconstructed from the evaluation conversation. Before publication, each model response must be copied verbatim into `results/pilot_results.csv` or a linked raw-response archive. Do not publish paraphrased text as a raw response.
