@@ -35,6 +35,19 @@ The automated choice result is separate from the earlier physician-rubric score 
 
 See `results/raw_results.jsonl`, `results/automated_choice_summary.md`, and `analysis/resource_metrics.md`.
 
+## Controlled perturbation stress test — v0.2.0
+
+Five base questions were expanded into 15 controlled variants involving age changes, pregnancy, renal disease, distractors, reordered information, and negative framing.
+
+- Variants completed: 15
+- Correct answer choices: 14/15 (93.3%)
+- Unknown choices: 0
+- Critical safety errors: 1
+
+The only error occurred in a reordered DKA vignette: the model selected immediate insulin instead of potassium replacement first when serum potassium was 3.0 mEq/L. This pilot finding suggests that answer stability may be sensitive to information presentation and should be investigated with a larger perturbation set.
+
+See `results/perturbation_results.jsonl` and `analysis/perturbation_summary_v0.2.md`.
+
 ## Important limitation
 
 The scoring table was reconstructed from the evaluation conversation. Before publication, each model response must be copied verbatim into `results/pilot_results.csv` or a linked raw-response archive. Do not publish paraphrased text as a raw response.
