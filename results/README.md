@@ -1,53 +1,31 @@
-# Physician-Reviewed USMLE-Style Medical LLM Evaluation Benchmark
+# Results
 
-Pilot benchmark for evaluating a local medical language model on 20 original, USMLE-style clinical vignettes.
+This directory contains outputs from two separate experiments. Their scores must not be pooled.
 
-> These are original educational questions inspired by Step 2 CK-style clinical reasoning. They are not official USMLE questions.
+## Physician-reviewed baseline
 
-## Current pilot
+`pilot_results.csv` contains the physician-led four-domain rubric scores for the 20-question baseline pilot.
 
-- Model: `qwen3:8b`
-- Runtime: Ollama + Open WebUI
-- Temperature: `0`
-- Web search/RAG/tools: disabled for evaluation
-- Questions: 20
-- Scoring: Accuracy, Completeness, Safety, Clinical Reasoning; each 0–2
 - Maximum score: 160
-- Current score: 152/160 (95%)
-- Critical errors: 1
-- Human reviewer: physician-led review
+- Observed score: 152/160 (95%)
+- Critical safety errors: 1
+- Critical error: MED-002
+
+The baseline response archive is stored in `raw_responses/`.
 
 ## Automated Ollama run
 
-An independent automated run was performed through the local Ollama API using the same model and temperature setting.
+`raw_results.jsonl` contains independent local Ollama API responses, including model output, timing, and token metadata.
 
-- Questions completed: 20
-- Empty responses: 0
-- Explicit answer-choice accuracy: 18/20 (90%)
-- Incorrect choices: 2
-- Critical safety errors: 2
-- Total runtime: 269.65 seconds
-- Mean runtime per question: 13.48 seconds
-- Mean generated tokens per question: 122.65
-- Approximate aggregate generation rate: 9.10 tokens/second
+Choice matching is summarized in `automated_choice_summary.md`. Runtime measurements are reported in `analysis/resource_metrics.md`.
 
-The automated choice result is separate from the earlier physician-rubric score because the automated run used the complete multiple-choice question file and was executed as an independent run.
+## Perturbation stress test
 
-See `results/raw_results.jsonl`, `results/automated_choice_summary.md`, and `analysis/resource_metrics.md`.
+`perturbation_results.jsonl` contains 15 controlled variants derived from five base questions.
 
-## Important limitation
+- Correct choices: 14/15
+- Choice accuracy: 93.3%
+- Critical safety errors: 1
+- Critical error: P002-C, a reordered DKA vignette
 
-The scoring table was reconstructed from the evaluation conversation. Before publication, each model response must be copied verbatim into `results/pilot_results.csv` or a linked raw-response archive. Do not publish paraphrased text as a raw response.
-
-## Repository structure
-
-```text
-questions/pilot_20_questions.csv
-results/pilot_results.csv
-rubric/scoring_rubric.md
-analysis/summary.md
-```
-
-## Safety notice
-
-This benchmark evaluates model behavior and is not a diagnostic or treatment tool. It must not be used for clinical decision-making.
+All results are exploratory and require further physician review, larger samples, multiple models, and independent replication.
