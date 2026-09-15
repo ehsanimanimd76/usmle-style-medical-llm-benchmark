@@ -9,7 +9,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-QUESTIONS_FILE = ROOT / "questions" / "pilot_20_questions.csv"
+QUESTIONS_FILE = ROOT / "questions" / "pilot_20_questions_full.csv"
 OUTPUT_FILE = ROOT / "results" / "raw_results.jsonl"
 OLLAMA_URL = "http://localhost:11434/api/chat"
 MODEL = "qwen3:8b"
