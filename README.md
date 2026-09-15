@@ -1,10 +1,21 @@
 # Physician-Reviewed USMLE-Style Medical LLM Evaluation Benchmark
 
-Pilot benchmark for evaluating a local medical language model on 20 original, USMLE-style clinical vignettes.
+An exploratory physician-reviewed benchmark for evaluating a locally deployed medical language model on 20 original, USMLE-style clinical vignettes.
 
 > These are original educational questions inspired by Step 2 CK-style clinical reasoning. They are not official USMLE questions.
 
-## Current pilot
+## What this project evaluates
+
+The benchmark assesses four dimensions of model behavior:
+
+- Accuracy
+- Completeness
+- Safety
+- Clinical reasoning
+
+It also includes a small controlled perturbation stress test to examine whether answer choices remain stable when selected clinical information is changed or reordered.
+
+## Baseline pilot
 
 - Model: `qwen3:8b`
 - Runtime: Ollama + Open WebUI
@@ -15,7 +26,7 @@ Pilot benchmark for evaluating a local medical language model on 20 original, US
 - Maximum score: 160
 - Current score: 152/160 (95%)
 - Critical errors: 1
-- Human reviewer: physician-led review
+- Human reviewer: physician-led review by the project author, a physician
 
 ## Automated Ollama run
 
@@ -31,7 +42,7 @@ An independent automated run was performed through the local Ollama API using th
 - Mean generated tokens per question: 122.65
 - Approximate aggregate generation rate: 9.10 tokens/second
 
-The automated choice result is separate from the earlier physician-rubric score because the automated run used the complete multiple-choice question file and was executed as an independent run.
+The automated choice result is separate from the physician-rubric score because it is an independent API run and uses answer-choice matching rather than the full four-domain rubric.
 
 See `results/raw_results.jsonl`, `results/automated_choice_summary.md`, and `analysis/resource_metrics.md`.
 
@@ -48,17 +59,32 @@ The only error occurred in a reordered DKA vignette: the model selected immediat
 
 See `results/perturbation_results.jsonl` and `analysis/perturbation_summary_v0.2.md`.
 
-## Important limitation
+## Limitations
 
-The scoring table was reconstructed from the evaluation conversation. Before publication, each model response must be copied verbatim into `results/pilot_results.csv` or a linked raw-response archive. Do not publish paraphrased text as a raw response.
+- This is a small pilot and is not a measure of general clinical reliability.
+- The questions are original educational items inspired by Step 2 CK-style reasoning, not official USMLE questions.
+- The baseline and automated runs are separate experiments and should not be pooled.
+- The perturbation set covers only five base questions and 15 variants.
+- Results require further physician review, larger samples, multiple models, and independent replication before strong conclusions can be drawn.
 
 ## Repository structure
 
 ```text
-questions/pilot_20_questions.csv
-results/pilot_results.csv
-rubric/scoring_rubric.md
-analysis/summary.md
+questions/
+  pilot_20_questions.csv
+  pilot_20_questions_full.csv
+  perturbation_set_v0.2.csv
+results/
+  pilot_results.csv
+  raw_results.jsonl
+  perturbation_results.jsonl
+  automated_choice_summary.md
+raw_responses/
+analysis/
+rubric/
+scripts/
+README.md
+LICENSE
 ```
 
 ## Safety notice
