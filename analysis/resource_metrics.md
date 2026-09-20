@@ -6,16 +6,18 @@ This run used the local Ollama API with `qwen3:8b`, temperature `0`, and `think:
 |---|---:|
 | Questions completed | 20 |
 | Empty responses | 0 |
-| Total runtime | 269.65 seconds |
-| Mean runtime per question | 13.48 seconds |
-| Total generated tokens | 2,453 |
-| Mean generated tokens per question | 122.65 |
-| Approximate aggregate generation rate | 9.10 tokens/second |
+| Total runtime | 422.834 seconds |
+| Mean runtime per question | 21.14 seconds |
+| Total generated tokens | 3,928 |
+| Mean generated tokens per question | 196.4 |
+| Approximate generation rate | 9.29 tokens/second |
 
 ## Interpretation
 
-All 20 requests completed successfully and produced non-empty responses. These are runtime/resource measurements only; they are not medical accuracy or safety scores.
+All 20 requests completed successfully and produced non-empty responses. These are runtime and resource measurements only; they are not medical accuracy or safety scores.
 
 ## Reproducibility
 
-The automated output is stored in `results/raw_results.jsonl` and the runner is stored in `scripts/run_benchmark.py`.
+The automated outputs are stored in `results/raw_results.jsonl`. The runner is stored in `scripts/run_benchmark.py`.
+
+The automated run is separate from the physician-reviewed Open WebUI baseline and should not be pooled with its rubric score.
